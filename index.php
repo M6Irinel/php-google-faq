@@ -3,22 +3,27 @@
 $menu_tabs = [
     [
         "text" => "Introduzione",
+        "link" => "#",
         "status" => "not-active"
     ],
     [
         "text" => "Norme sulla privacy",
+        "link" => "#",
         "status" => "not-active"
     ],
     [
         "text" => "Termini di servizio",
+        "link" => "#",
         "status" => "not-active"
     ],
     [
         "text" => "Tecnologie",
+        "link" => "#",
         "status" => "not-active"
     ],
     [
         "text" => "Domande frequenti",
+        "link" => "#",
         "status" => "active"
     ]
 ];
@@ -132,9 +137,9 @@ $faqs = [
                         <ul class="list-style-none d-flex pl-3 m-0">
                             <?php foreach ($menu_tabs as $k => $v) : ?>
                                 <li class="d-inline-block pr-4-5">
-                                    <div class="link-navbar c-pointer font-weight-semibold pb-1 <?= $v['status'] ?>">
+                                    <a class="d-block link-navbar c-pointer font-weight-semibold pb-1 <?= $v['status'] ?>" href="<?= $v['link'] ?>">
                                         <?= $v['text']; ?>
-                                    </div>
+                                    </a>
                                 </li>
                             <?php endforeach; ?>
                         </ul>
