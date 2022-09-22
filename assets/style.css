@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+
 .logo:before {
     content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
     display: inline-block;
@@ -6,12 +8,25 @@
     vertical-align: middle;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .c-pointer {cursor: pointer;}
 
 .aspect-ratio-1{aspect-ratio: 1;}
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
 header .right {
-    gap: 7px;
+    gap: 8px;
 }
 
 header .right button {
@@ -23,17 +38,22 @@ header .right button:hover {
     background-color: #f0f0f0;
 }
 
+header h5 {
+    font-size: 1.42rem;
+    position: relative;
+    top: 3px;
+}
+
 .p-2-5 {
     padding: 10px;
 }
 
 .pr-4-5 {
-    padding-right: 2.2rem;
+    padding-right: 2.3rem;
 }
 
 .link-navbar {
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 500;
     color: gray;
 }
 
@@ -70,11 +90,33 @@ footer .right {
     gap: 5px;
 }
 
+footer .point {
+    bottom: 3px;
+}
+
 .mess {
     width: 20px;
 }
 
 .container {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h3 {
+    font-size: 1.36rem;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.-mt-3 {
+    margin-top: -1.8rem;
 }
