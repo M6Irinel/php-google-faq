@@ -122,7 +122,7 @@ $faqs = [
 
                         <div class="right d-flex align-items-center pr-1">
                             <button class="d-block aspect-ratio-1 overflow-hidden border-0 p-2-5 rounded-circle d-flex justify-content-center align-items-center">
-                                <img class="aspect-ratio-1 w-75" src="./assets/img/grid-9.png" alt="grid menu 9">
+                                <img class="aspect-ratio-1 w-75" src="./assets/img/grid_9.png" alt="grid menu 9">
                             </button>
 
                             <button class="d-block aspect-ratio-1 overflow-hidden border-0 p-2 rounded-circle d-flex justify-content-center align-items-center">
