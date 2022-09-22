@@ -111,6 +111,53 @@ $faqs = [
         </section>
     </header>
 
+    <main>
+        <section class="pt-5 pb-4">
+            <div class="container mt-5">
+                <ul class="list-style-none p-0">
+                    <?php foreach ($faqs as $k => $v) : ?>
+                        <li>
+                            <h3>
+                                <?= $k; ?>
+                            </h3>
+                            <?php foreach ($v as $v2) : ?>
+                                <p class="my-4">
+                                    <?= $v2; ?>
+                                </p>
+                            <?php endforeach; ?>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container py-2 d-flex justify-content-between">
+                <div class="buttons font-weight-light">
+                    <button class="btn px-0">Google</button>
+                    •
+                    <button class="btn px-0">Tutto su Google</button>
+                    •
+                    <button class="btn px-0">Privacy</button>
+                    •
+                    <button class="btn px-0">Termini</button>
+                </div>
+                <div class="right d-flex align-items-center">
+                    <div class="mess overflow-hidden">
+                        <img class="img-fluid" src="./assets/img/footer-message-icon.png" alt="footer message icon">
+                    </div>
+                    <select>
+                        <option value="it">Italiano</option>
+                        <option value="en">Englich</option>
+                        <option value="ro">Romania</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </footer>
+
 </body>
 
 </html>
