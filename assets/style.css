@@ -1,0 +1,43 @@
+.logo:before {
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+    vertical-align: middle;
+}
+
+.c-pointer {cursor: pointer;}
+
+.aspect-ratio-1{aspect-ratio: 1;}
+
+header .right {
+    gap: 7px;
+}
+
+header .right button {
+    width: 40px;
+    background-color: #fff;
+}
+
+header .right button:hover {
+    background-color: #f0f0f0;
+}
+
+.p-2-5 {
+    padding: 10px;
+}
+
+.pr-4-5 {
+    padding-right: 2.2rem;
+}
+
+.link-navbar {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.link-navbar.active {
+    border-bottom: 3px solid #3367d6;
+    color: #3367d6;
+}
